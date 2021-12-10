@@ -1,4 +1,4 @@
-import { Drawer, MainBar } from "../components";
+import { Drawer } from "../components";
 import { LoginView, ContacView, HomeView } from "../views";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 // import RouterWithLayout from "./RouterLayout";

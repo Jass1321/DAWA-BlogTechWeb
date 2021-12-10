@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState } from "react";
 import { Button, Container, TextField } from "@mui/material";
 import Drawer from "../../components/Drawer";
@@ -32,15 +33,13 @@ const Contact = () => {
   };
 
   return (
-    <div>
-        <Drawer>
-        <Container maxWidth="lg">
-          <div>
-            <h1>Hola</h1>
-          </div>
-        </Container>
-      </Drawer>
-    </div>
+    <>
+      <Container maxWidth="xl">
+        <div>
+          <h1>Hola</h1>
+        </div>
+      </Container>
+    </>
   );
 };
 
